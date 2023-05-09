@@ -3,7 +3,7 @@
   "description": "First package for php",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "dev-main",
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
