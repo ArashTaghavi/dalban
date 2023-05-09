@@ -1,0 +1,16 @@
+{
+    "name": "a.taghavi/package-php",
+    "description": "First package for php",
+    "autoload": {
+        "psr-4": {
+            "ATaghavi\\PackagePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arash Taghavi",
+            "email": "a.taghavi@ip-jam.com"
+        }
+    ],
+    "require": {}
+}
