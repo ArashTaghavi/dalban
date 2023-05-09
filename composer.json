@@ -3,6 +3,7 @@
     "description": "First package for php",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "ATaghavi\\PackagePhp\\": "src/"
