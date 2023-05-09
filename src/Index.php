@@ -4,8 +4,12 @@ namespace ATaghavi\PackagePhp;
 
 class Index
 {
-    public function greet(string $greet = 'Hello World'): string
+    public function message(string $type): string
     {
-        return $greet;
+        return match ($type) {
+            "dalban" => "دالبانو تا لوووول بزار",
+            "tasvir" => "کسمزار جیجینگگگگگ",
+            default => "دییییییییییز د لولو",
+        };
     }
 }
